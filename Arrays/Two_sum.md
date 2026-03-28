@@ -1,6 +1,6 @@
-# 🔍 Two Sum (LeetCode - Easy)
+# Two Sum (LeetCode - Easy)
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to the target.
 
@@ -10,9 +10,9 @@ Given an array of integers `nums` and an integer `target`, return the indices of
 
 ---
 
-## 💡 Approach: Hashing (Optimal Solution)
+## Approach: Hashing (Optimal Solution)
 
-### 🚀 Idea
+### Idea
 
 Instead of checking all pairs (which takes O(n²)), we use a **hashmap (dictionary)** to store numbers we have already seen.
 
@@ -20,7 +20,7 @@ For each element, we check whether the required complement exists.
 
 ---
 
-### 🔑 Key Insight
+### Key Insight
 
 For any number `num`, we check:
 
@@ -30,7 +30,7 @@ If this value already exists in the hashmap → we found the solution.
 
 ---
 
-## 🪜 Step-by-Step Algorithm
+## Step-by-Step Algorithm
 
 1. Create an empty hashmap `seen`
 2. Traverse the array using a loop
@@ -41,7 +41,7 @@ If this value already exists in the hashmap → we found the solution.
 
 ---
 
-## 🧪 Example Walkthrough
+## Example Walkthrough
 
 Input:  
 nums = [2, 7, 11, 15], target = 9  
@@ -58,7 +58,7 @@ Found in hashmap → Answer = [0, 1]
 
 ---
 
-## 💻 Python Code
+## Python Code
 
 ```python
 def twoSum(nums, target):

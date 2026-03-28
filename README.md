@@ -1,12 +1,12 @@
 # dsa-solving
-# 🚀 DSA Practice Repository
+# DSA Practice Repository
 
-Hi, I'm Gokulakrishnan 👋  
+Hi, I'm Gokulakrishnan  
 This repository contains my structured journey of solving Data Structures and Algorithms problems for coding interviews.
 
 ---
 
-## 🎯 Goal
+## Goal
 
 - Solve 300+ DSA problems
 - Master core patterns (Arrays, Graphs, DP, etc.)
@@ -14,7 +14,7 @@ This repository contains my structured journey of solving Data Structures and Al
 
 ---
 
-## 📅 Current Focus
+## Current Focus
 
 - Arrays & Strings
 - Hashing
@@ -23,7 +23,7 @@ This repository contains my structured journey of solving Data Structures and Al
 
 ---
 
-## 🧠 Topics Covered
+## Topics Covered
 
 | Topic          | Problems Solved |
 |---------------|----------------|
@@ -38,4 +38,4 @@ This repository contains my structured journey of solving Data Structures and Al
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure

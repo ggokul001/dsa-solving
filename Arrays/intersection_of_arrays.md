@@ -1,6 +1,6 @@
-# 🔗 Intersection of Two Arrays
+#Intersection of Two Arrays
 
-## 📌 Problem Statement
+##Problem Statement
 
 Given two integer arrays `nums1` and `nums2`, return an array of their **intersection**.
 
@@ -8,7 +8,7 @@ Each element in the result must be **unique**, and you may return the result in 
 
 ---
 
-## 🧠 Approach (Using Set for Efficient Lookup)
+##Approach (Using Set for Efficient Lookup)
 
 To find the intersection efficiently:
 
@@ -21,14 +21,14 @@ To find the intersection efficiently:
 
 ---
 
-## ⚡ Time & Space Complexity
+##Time & Space Complexity
 
 * **Time Complexity:** O(n + m)
 * **Space Complexity:** O(n)
 
 ---
 
-## 🧪 Example
+##Example
 
 ### Input:
 
@@ -45,7 +45,7 @@ nums2 = [2,2]
 
 ---
 
-## 🧾 Code (Python)
+##Code (Python)
 
 ```python
 from typing import List
@@ -64,7 +64,7 @@ class Solution:
 
 ---
 
-## 💡 Key Insight
+##Key Insight
 
 * Using a **set** allows constant time lookup O(1)
 * Another set ensures **unique elements only**
@@ -72,7 +72,7 @@ class Solution:
 
 ---
 
-## 🚀 Tags
+## Tags
 
 * Hash Table
 * Set
@@ -81,13 +81,13 @@ class Solution:
 
 ---
 
-## 📚 Practice Link
+##Practice Link
 
 * LeetCode: https://leetcode.com/problems/intersection-of-two-arrays/
 
 ---
 
-## ✨ Author
+##Author
 
 **Gokulakrishnan G**
 Aspiring Software Engineer | DSA Learner 🚀

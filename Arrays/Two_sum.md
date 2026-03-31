@@ -1,4 +1,4 @@
-# Two Sum (LeetCode - Easy)
+# Two Sum (LeetCode - Easy)(Hashing)
 
 ## Problem Statement
 

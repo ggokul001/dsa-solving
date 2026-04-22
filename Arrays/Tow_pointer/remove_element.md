@@ -1,6 +1,6 @@
-# 🧹 Remove Element
+#Remove Element
 
-## 📌 Problem Statement
+##Problem Statement
 
 Given an integer array `nums` and an integer `val`, remove all occurrences of `val` **in-place**.
 
@@ -12,7 +12,7 @@ Return the number of elements `k` which are **not equal to `val`**.
 
 ---
 
-## 🧪 Example
+##Example
 
 ### Input:
 
@@ -46,9 +46,9 @@ nums = [0,1,3,0,4,_,_,_]
 
 ---
 
-## 🧠 Approach (Two Pointer Technique)
+##Approach (Two Pointer Technique)
 
-### 💡 Idea (Simple English)
+###Idea (Simple English)
 
 * We need to remove all elements equal to `val`
 * Use two pointers:
@@ -58,7 +58,7 @@ nums = [0,1,3,0,4,_,_,_]
 
 ---
 
-## 🚀 Steps
+##Steps
 
 1. Initialize `i = 0`
 2. Loop `j` from 0 to end:
@@ -71,7 +71,7 @@ nums = [0,1,3,0,4,_,_,_]
 
 ---
 
-## 🔄 Dry Run
+##Dry Run
 
 ### Input:
 
@@ -93,7 +93,7 @@ val = 2
 
 ---
 
-### ✅ Final Output:
+###Final Output:
 
 ```id="dr2"
 k = 5
@@ -102,7 +102,7 @@ nums = [0,1,3,0,4,_,_,_]
 
 ---
 
-## 🧾 Code (Python)
+##Code (Python)
 
 ```python id="code1"
 from typing import List
@@ -121,14 +121,14 @@ class Solution:
 
 ---
 
-## ⚡ Time & Space Complexity
+##Time & Space Complexity
 
 * **Time Complexity:** O(n)
 * **Space Complexity:** O(1) (in-place)
 
 ---
 
-## 💡 Key Insight
+##Key Insight
 
 * We overwrite elements equal to `val`
 * No need to delete elements physically
@@ -136,7 +136,7 @@ class Solution:
 
 ---
 
-## 🚀 Tags
+##Tags
 
 * Array
 * Two Pointers
@@ -145,7 +145,7 @@ class Solution:
 
 ---
 
-## 📚 Practice Link
+##Practice Link
 
 * LeetCode: https://leetcode.com/problems/remove-element/
 

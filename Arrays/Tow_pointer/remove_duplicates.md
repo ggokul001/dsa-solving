@@ -1,6 +1,6 @@
-# 🧹 Remove Duplicates from Sorted Array
+#Remove Duplicates from Sorted Array
 
-## 📌 Problem Statement
+##Problem Statement
 
 Given an integer array `nums` sorted in **non-decreasing order**, remove the duplicates **in-place** such that each unique element appears only once.
 
@@ -11,7 +11,7 @@ Return the number of unique elements `k`.
 
 ---
 
-## 🧪 Example
+##Example
 
 ### Input:
 
@@ -43,9 +43,9 @@ nums = [0,1,2,3,4,_,_,_,_,_]
 
 ---
 
-## 🧠 Approach (Two Pointer Technique)
+##Approach (Two Pointer Technique)
 
-### 💡 Idea (Simple English)
+###Idea (Simple English)
 
 * Since the array is already **sorted**, duplicates will be **next to each other**
 * We use **two pointers**:
@@ -55,7 +55,7 @@ nums = [0,1,2,3,4,_,_,_,_,_]
 
 ---
 
-## 🚀 Steps
+##Steps
 
 1. Start `i = 0`
 2. Loop `j` from 1 to end:
@@ -68,7 +68,7 @@ nums = [0,1,2,3,4,_,_,_,_,_]
 
 ---
 
-## 🔄 Dry Run
+##Dry Run
 
 ### Input:
 
@@ -90,7 +90,7 @@ nums = [0,0,1,1,1,2,2,3,3,4]
 
 ---
 
-### ✅ Final Output:
+###Final Output:
 
 ```
 k = 5
@@ -99,7 +99,7 @@ nums = [0,1,2,3,4,_,_,_,_,_]
 
 ---
 
-## 🧾 Code (Python)
+##Code (Python)
 
 ```python id="code1"
 from typing import List
@@ -118,14 +118,14 @@ class Solution:
 
 ---
 
-## ⚡ Time & Space Complexity
+##Time & Space Complexity
 
 * **Time Complexity:** O(n)
 * **Space Complexity:** O(1) (in-place)
 
 ---
 
-## 💡 Key Insight
+##Key Insight
 
 * Sorted array helps us detect duplicates easily
 * Two pointer approach avoids extra space
@@ -133,7 +133,7 @@ class Solution:
 
 ---
 
-## 🚀 Tags
+##Tags
 
 * Array
 * Two Pointers
@@ -142,7 +142,7 @@ class Solution:
 
 ---
 
-## 📚 Practice Link
+##Practice Link
 
 * LeetCode: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 

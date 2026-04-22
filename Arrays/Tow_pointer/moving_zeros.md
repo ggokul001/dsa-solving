@@ -1,6 +1,6 @@
-# 🚚 Move Zeroes (Swap Approach)
+#Move Zeroes (Swap Approach)
 
-## 📌 Problem Statement
+##Problem Statement
 
 Given an integer array `nums`, move all `0`s to the **end** while maintaining the **relative order of non-zero elements**.
 
@@ -9,7 +9,7 @@ Given an integer array `nums`, move all `0`s to the **end** while maintaining th
 
 ---
 
-## 🧪 Example
+##Example
 
 ### Input:
 
@@ -25,9 +25,9 @@ nums = [0,1,0,3,12]
 
 ---
 
-## 🧠 Approach (Two Pointer + Swapping)
+##Approach (Two Pointer + Swapping)
 
-### 💡 Idea (Simple English)
+###Idea (Simple English)
 
 * Use two pointers:
 
@@ -38,12 +38,12 @@ nums = [0,1,0,3,12]
   * Swap it with position `slow`
   * Move `slow` forward
 
-👉 This way, all non-zero elements move to the front
-👉 Zeros automatically shift to the end
+This way, all non-zero elements move to the front
+Zeros automatically shift to the end
 
 ---
 
-## 🚀 Steps
+##Steps
 
 1. Initialize `slow = 0`
 2. Loop `fast` from 0 to end:
@@ -56,7 +56,7 @@ nums = [0,1,0,3,12]
 
 ---
 
-## 🔄 Dry Run
+##Dry Run
 
 ### Input:
 
@@ -74,7 +74,7 @@ nums = [0,1,0,3,12]
 
 ---
 
-### ✅ Final Output:
+###Final Output:
 
 ```id="dr2"
 [1,3,12,0,0]
@@ -82,7 +82,7 @@ nums = [0,1,0,3,12]
 
 ---
 
-## 🧾 Code (Python)
+##Code (Python)
 
 ```python id="code1"
 from typing import List
@@ -98,14 +98,14 @@ class Solution:
 
 ---
 
-## ⚡ Time & Space Complexity
+##Time & Space Complexity
 
 * **Time Complexity:** O(n)
 * **Space Complexity:** O(1)
 
 ---
 
-## 💡 Key Insight
+##Key Insight
 
 * Swapping places non-zero elements directly in correct position
 * Maintains relative order automatically
@@ -114,7 +114,7 @@ class Solution:
 
 ---
 
-## 🚀 Tags
+##Tags
 
 * Array
 * Two Pointers
@@ -123,13 +123,13 @@ class Solution:
 
 ---
 
-## 📚 Practice Link
+##Practice Link
 
 * LeetCode: https://leetcode.com/problems/move-zeroes/
 
 ---
 
-## ✨ Author
+##Author
 
 **Gokulakrishnan G**
-Aspiring Software Engineer | DSA Learner 🚀
+Aspiring Software Engineer | DSA Learner 

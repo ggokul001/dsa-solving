@@ -1,12 +1,12 @@
-# 🔢 Squares of a Sorted Array (Two Pointer Approach)
+#Squares of a Sorted Array (Two Pointer Approach)
 
-## 📌 Problem Statement
+##Problem Statement
 
 Given an integer array `nums` sorted in **non-decreasing order**, return an array of the **squares of each number** also sorted in non-decreasing order.
 
 ---
 
-## 🧪 Example
+##Example
 
 ### Input:
 
@@ -22,9 +22,9 @@ nums = [-4, -1, 0, 3, 10]
 
 ---
 
-## 🧠 Approach (Two Pointer Technique)
+##Approach (Two Pointer Technique)
 
-### 💡 Idea (Simple English)
+###Idea (Simple English)
 
 * The array is sorted, but squaring negative numbers makes them positive
 * The **largest square** will come from:
@@ -32,11 +32,11 @@ nums = [-4, -1, 0, 3, 10]
   * Either the **leftmost (negative large value)**
   * Or the **rightmost (positive large value)**
 
-👉 So we compare both ends and place the larger square at the end
+So we compare both ends and place the larger square at the end
 
 ---
 
-## 🚀 Steps
+##Steps
 
 1. Create a result array of same size
 2. Use three pointers:
@@ -52,7 +52,7 @@ nums = [-4, -1, 0, 3, 10]
 
 ---
 
-## 🔄 Dry Run
+##Dry Run
 
 ### Input:
 
@@ -70,7 +70,7 @@ nums = [-4, -1, 0, 3, 10]
 
 ---
 
-### ✅ Final Output:
+###Final Output:
 
 ```id="dr2"
 [0, 1, 9, 16, 100]
@@ -78,7 +78,7 @@ nums = [-4, -1, 0, 3, 10]
 
 ---
 
-## 🧾 Code (Python)
+##Code (Python)
 
 ```python id="code1"
 from typing import List
@@ -107,14 +107,14 @@ class Solution:
 
 ---
 
-## ⚡ Time & Space Complexity
+##Time & Space Complexity
 
 * **Time Complexity:** O(n)
 * **Space Complexity:** O(n)
 
 ---
 
-## 💡 Key Insight
+##Key Insight
 
 * Compare absolute values to find the largest square
 * Fill from the end to maintain sorted order
@@ -122,7 +122,7 @@ class Solution:
 
 ---
 
-## 🚀 Tags
+##Tags
 
 * Array
 * Two Pointers
@@ -131,13 +131,13 @@ class Solution:
 
 ---
 
-## 📚 Practice Link
+##Practice Link
 
 * LeetCode: https://leetcode.com/problems/squares-of-a-sorted-array/
 
 ---
 
-## ✨ Author
+##Author
 
 **Gokulakrishnan G**
-Aspiring Software Engineer | DSA Learner 🚀
+Aspiring Software Engineer | DSA Learner 

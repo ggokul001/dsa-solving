@@ -1,6 +1,6 @@
 # 🇳🇱 Sort Colors (Dutch National Flag Algorithm)
 
-## 📌 Problem Statement
+##Problem Statement
 
 Given an array `nums` with `n` objects colored:
 
@@ -10,13 +10,13 @@ Given an array `nums` with `n` objects colored:
 
 Sort the array **in-place** so that:
 
-👉 All `0`s come first, then `1`s, then `2`s
+All `0`s come first, then `1`s, then `2`s
 
-⚠️ You must NOT use built-in sort functions.
+You must NOT use built-in sort functions.
 
 ---
 
-## 🧪 Example
+##Example
 
 ### Input:
 
@@ -32,9 +32,9 @@ nums = [2,0,2,1,1,0]
 
 ---
 
-## 🧠 Approach (Dutch National Flag Algorithm)
+##Approach (Dutch National Flag Algorithm)
 
-### 💡 Idea (Simple English)
+###Idea (Simple English)
 
 We divide the array into **3 regions**:
 
@@ -50,27 +50,27 @@ We divide the array into **3 regions**:
 
 ---
 
-## 🚀 Rules
+##Rules
 
 While `mid <= high`:
 
-### 👉 Case 1: nums[mid] == 0
+###Case 1: nums[mid] == 0
 
 * Swap with `low`
 * Move both `low` and `mid`
 
-### 👉 Case 2: nums[mid] == 1
+###Case 2: nums[mid] == 1
 
 * Just move `mid`
 
-### 👉 Case 3: nums[mid] == 2
+###Case 3: nums[mid] == 2
 
 * Swap with `high`
 * Move `high` only (do NOT move mid)
 
 ---
 
-## 🔄 Dry Run
+##Dry Run
 
 ### Input:
 
@@ -89,7 +89,7 @@ nums = [2,0,2,1,1,0]
 
 ---
 
-### ✅ Final Output:
+###Final Output:
 
 ```id="dr2"
 [0,0,1,1,2,2]
@@ -97,7 +97,7 @@ nums = [2,0,2,1,1,0]
 
 ---
 
-## 🧾 Code (Python)
+##Code (Python)
 
 ```python id="code1"
 from typing import List
@@ -124,23 +124,23 @@ class Solution:
 
 ---
 
-## ⚡ Time & Space Complexity
+##Time & Space Complexity
 
 * **Time Complexity:** O(n)
 * **Space Complexity:** O(1)
 
 ---
 
-## 💡 Key Insight
+##Key Insight
 
 * This is a **3-pointer partitioning problem**
 * Avoids sorting (O(n log n))
 * Solves in **single pass**
-* Very common interview pattern 🔥
+* Very common interview pattern
 
 ---
 
-## 🚀 Tags
+##Tags
 
 * Array
 * Two Pointers
@@ -149,13 +149,13 @@ class Solution:
 
 ---
 
-## 📚 Practice Link
+##Practice Link
 
 * LeetCode: https://leetcode.com/problems/sort-colors/
 
 ---
 
-## ✨ Author
+##Author
 
 **Gokulakrishnan G**
-Aspiring Software Engineer | DSA Learner 🚀
+Aspiring Software Engineer | DSA Learner 

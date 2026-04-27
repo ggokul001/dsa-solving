@@ -1,6 +1,6 @@
-# 🔄 Partition Array According to Given Pivot
+#Partition Array According to Given Pivot
 
-## 📌 Problem Statement
+##Problem Statement
 
 Given an integer array `nums` and an integer `pivot`, rearrange the array such that:
 
@@ -17,7 +17,7 @@ This means the partitioning must be **stable**.
 
 ---
 
-## 🧪 Example
+##Example
 
 ### Input
 
@@ -34,9 +34,9 @@ pivot = 10
 
 ---
 
-## 🧠 Approach (Three Separate Lists)
+##Approach (Three Separate Lists)
 
-### 💡 Idea (Simple English)
+###Idea (Simple English)
 
 We divide the array into three groups:
 
@@ -50,7 +50,7 @@ Finally, combine all three lists.
 
 ---
 
-## 🚀 Algorithm Steps
+##Algorithm Steps
 
 1. Create three empty lists:
 
@@ -70,7 +70,7 @@ Finally, combine all three lists.
 
 ---
 
-## 🔄 Dry Run
+##Dry Run
 
 ### Input
 
@@ -109,7 +109,7 @@ greater = [12, 14]
 
 ---
 
-## 🧾 Python Code
+##Python Code
 
 ```python id="code1"
 from typing import List
@@ -133,7 +133,7 @@ class Solution:
 
 ---
 
-## ⚡ Time and Space Complexity
+##Time and Space Complexity
 
 * **Time Complexity:** `O(n)`
 
@@ -145,7 +145,7 @@ class Solution:
 
 ---
 
-## 🎯 Key Insight
+##Key Insight
 
 * This is a **stable partitioning** problem.
 * Using three separate lists makes the solution simple and easy to understand.
@@ -153,7 +153,7 @@ class Solution:
 
 ---
 
-## 🏷️ Tags
+##Tags
 
 * Array
 * Partitioning
@@ -162,13 +162,13 @@ class Solution:
 
 ---
 
-## 🔗 Practice Link
+##Practice Link
 
 * LeetCode: https://leetcode.com/problems/partition-array-according-to-given-pivot/
 
 ---
 
-## ✨ Author
+##Author
 
 **Gokulakrishnan G**
-Aspiring Software Engineer | Python & DSA Enthusiast 🚀
+Aspiring Software Engineer | Python & DSA Enthusiast
